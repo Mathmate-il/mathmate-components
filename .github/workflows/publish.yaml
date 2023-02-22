@@ -32,12 +32,9 @@ jobs:
 
       - name: Build
         run: npm run build
-
       - name: Publish
         run: |
-          npm install
+          npm adduser
           npm run publish
-
         env:
-          # We need this to our NPM account
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
