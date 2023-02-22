@@ -1,7 +1,11 @@
 {
   "name": "mathmate-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NPM package of mathmate react components",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathmate-il/mathmate-components"
+  },
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
@@ -15,7 +19,11 @@
     "LICENSE",
     "README.md"
   ],
-  "keywords": [],
+  "keywords": [
+    "mathmate",
+    "react",
+    "components"
+  ],
   "author": "Mathmate",
   "license": "MIT",
   "devDependencies": {
