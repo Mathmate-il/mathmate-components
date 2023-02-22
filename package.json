@@ -1,6 +1,6 @@
 {
   "name": "mathmate-components",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "NPM package of mathmate react components",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -10,13 +10,23 @@
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir dist/cjs"
   },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "keywords": [],
   "author": "Mathmate",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.0.28",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/react-dom": "^18.0.11"
   }
 }
